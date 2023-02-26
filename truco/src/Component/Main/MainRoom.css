@@ -1,0 +1,7 @@
+.mainRoom {
+  display: grid;
+  place-items: center;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+}

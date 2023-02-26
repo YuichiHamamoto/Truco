@@ -1,0 +1,30 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f6f6f6;
+  display: grid;
+  place-items: center;
+  overflow: scroll;
+}
+
+.login__body {
+  max-height: 90%;
+  place-items: center;
+  padding: 70px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.login__body__input__name {
+  padding: 10px;
+}
+
+.login__body__input__email {
+  padding: 10px;
+}
+
+.login__body__button {
+  padding: 10px;
+}

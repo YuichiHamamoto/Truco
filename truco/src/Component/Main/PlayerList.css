@@ -1,0 +1,19 @@
+.playerList {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  background-color: #f6f6f6;
+}
+
+.playerList__name {
+  width: 150px;
+}
+
+.playerList__email {
+  width: 250px;
+}
+
+.playerList__button {
+  width: 30px;
+}
