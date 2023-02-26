@@ -9,9 +9,7 @@ import firestore from '../../database';
 
 function MainRoom(props) {
   useEffect(() => {
-    firestore.collection('game').doc('master').onSnapshot((doc) => {
-      props.setGame(doc.data());
-    });
+
   }, [])
 
   return (
