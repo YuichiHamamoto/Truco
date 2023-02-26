@@ -1,1 +1,1 @@
-# Truco_practice_game
+# Truco
